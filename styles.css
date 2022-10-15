@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(240, 240, 240);
+}
+main {
+    background: rgb(34, 34, 43);
+}
+
+header {
+    display: block;
+    font-size: 1.5rem;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 37px;
+    padding: 1rem;
+}
+
+#navbar {
+    width: 100%;
+}
+
+.navlinks {
+    max-height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    min-width: 100%;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(34, 34, 43);
+    color: rgb(245, 237, 237);
+    border-bottom: 1px solid rgb(245, 237, 237);
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    
+    padding: 10px;
+}
+
+.main-section {
+
+    margin:0 auto;
+    padding: 1rem;
+}
+
+code {
+    display: block;
+    padding: 10px;
+    background-color: rgb(104, 104, 104);
+}
+
+p {
+    padding: 1rem;
+    line-height: 1.35;
+}
+
+@media screen and (min-width:770px) {
+    header {
+            display: block;
+            list-style: none;
+            font-size: 1.5rem;
+            max-width: 15%;
+            margin-bottom: 1rem;
+        }
+    
+        #navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 250px;
+            width: 300px;
+            border-right: 1px solid black;
+            height: 100%;
+    
+        }
+    
+        .navlinks {
+            max-height: 100vh;
+            position: sticky;
+            display: block;
+            max-width: 100%;
+            list-style: none;
+            padding: 0;
+    
+        }
+    
+        .nav-list {
+            display: list-item;
+            width: 100%;
+        }
+    
+        .nav-link {
+            border-bottom: 1px solid black;
+            text-decoration: none;
+            display: block;
+    
+    
+    
+            padding: 25px 40px;
+        }
+    
+        .main-section {
+            min-width: 45ch;
+            display: block;
+            margin-left: 325px;
+            margin-right: auto;
+            padding: 2rem 2rem 2rem 1rem;
+        }
+
+        p {
+            padding: 1rem;
+        }
+
+        .inner-ul {
+            padding-top: 25px;
+        }
+
+        code {
+            display: block;
+            padding: 10px;
+            background-color: rgb(80, 80, 88);
+        }
+
+        a {
+            color:rgb(248, 255, 237);
+        }
+}

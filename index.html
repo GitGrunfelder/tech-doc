@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Document  Page</title>
+</head>
+<main id='main-doc'>
+    <nav id='navbar'>
+        <header>
+            <h1>Programming Overview</h1>
+        </header>
+        <ul class="navlinks">
+            <li class="nav-list"><a class='nav-link' href='#HTML'>HTML</a></li>
+            <li class="nav-list"><a class='nav-link' href='#CSS'>CSS</a></li>
+            <li class="nav-list"><a class='nav-link' href='#Python'>Python</a></li>
+            <li class="nav-list"><a class='nav-link' href='#JavaScript'>JavaScript</a></li>
+            <li class="nav-list"><a class='nav-link' href='#Java'>Java</a></li>
+        </ul>
+    </nav>
+    <section class='main-section' id='HTML'>
+        <h2>HTML</h2>
+        <p>Hypertext Markup Language</p>
+        <code>&ltdiv class='something'>&lt/div></code>
+        <p>Assign tags and attributes of those tags, often giving tags specific classes to act on with CSS.</p>
+        <code>&ltbody>&lt/body></code>
+        <ul class="inner-ul">
+            <li>Skeleton of the page</li>
+            <li>Bones on which CSS act</li>
+            <li>Must be semantic for accessibility</li>
+            <li>Simple to learn</li>
+            <li>Hard to master</li>
+        </ul>
+    </section>
+    <section class='main-section' id='CSS'>
+        <h2>CSS</h2>
+        <p>Cascading Style Sheets, the flesh on the bones of HTML. There are layers with specificity that creates the
+            layout of your page.</p>
+        <code>body {
+      background-color:black; 
+    }
+    </code>
+        <p>Above is an example that would change the background color of the body of the html. Below, when you hover
+            your mouse, the color of the text changes.</p>
+        <code>a:hover {color:green;}</code>
+    </section>
+    <section class='main-section' id='Python'>
+        <h2>Python</h2>
+        <p>A versatile high-level programming language used by various companies for a wide variety of tasks. Machine
+            learning, AI, data, webscraping, automation, and even frontend capabilities.</p>
+        <code>print('Python is easy to read and understand.')</code>
+        <p>List comprehension makes for very elegant one-line solutions to common problems.</p>
+        <code>new_list = [i for i in array if i % 2 == 0]</code>
+    </section>
+    <section class='main-section' id='JavaScript'>
+        <h2>JavaScript</h2>
+        <p>The language of the web. Used in most websites and web applications, JS is a dominant language. It is OOP,
+            and in high demand.</p>
+        <code> $msgState.empty().append(" Use a two-letter abbreviation");</code>
+        <p>I don't have much experience with JS, but that's coming up soon with this course. Below might be JQuery, it
+            has been awhile.</p>
+        <code>var $name = $("#first_name")</code>
+    </section>
+    <section class='main-section' id='Java'>
+        <h2>Java</h2>
+        <p>I took a couple Java classes in college, so I understand the gist of it. Very unpleasant, and if I had to
+            choose, I would prefer python everyday.</p>
+        <code>public static void main</code>
+        <p>This is the gist of it, very strongly typed language with slightly tricky syntaax. I did not enjoy it. You
+            have to define variables and create input scanners.</p>
+        <code>Scanner input = new Scanner(System.in);</code>
+    </section>
+</main>
